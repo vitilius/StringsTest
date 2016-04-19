@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		692878451CC5070F0074FD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 692878441CC5070F0074FD68 /* main.m */; };
+		692878481CC5070F0074FD68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 692878471CC5070F0074FD68 /* AppDelegate.m */; };
+		6928784B1CC5070F0074FD68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6928784A1CC5070F0074FD68 /* ViewController.m */; };
+		6928784E1CC5070F0074FD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6928784C1CC5070F0074FD68 /* Main.storyboard */; };
+		692878501CC5070F0074FD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6928784F1CC5070F0074FD68 /* Assets.xcassets */; };
+		692878531CC5070F0074FD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692878511CC5070F0074FD68 /* LaunchScreen.storyboard */; };
+		6928785E1CC507100074FD68 /* SringsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6928785D1CC507100074FD68 /* SringsTestTests.m */; };
+		692878691CC507100074FD68 /* SringsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 692878681CC507100074FD68 /* SringsTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6928785A1CC507100074FD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 692878381CC5070F0074FD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6928783F1CC5070F0074FD68;
+			remoteInfo = SringsTest;
+		};
+		692878651CC507100074FD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 692878381CC5070F0074FD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6928783F1CC5070F0074FD68;
+			remoteInfo = SringsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		692878401CC5070F0074FD68 /* SringsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SringsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		692878441CC5070F0074FD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		692878461CC5070F0074FD68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		692878471CC5070F0074FD68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		692878491CC5070F0074FD68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6928784A1CC5070F0074FD68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6928784D1CC5070F0074FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6928784F1CC5070F0074FD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		692878521CC5070F0074FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		692878541CC5070F0074FD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692878591CC507100074FD68 /* SringsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SringsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6928785D1CC507100074FD68 /* SringsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SringsTestTests.m; sourceTree = "<group>"; };
+		6928785F1CC507100074FD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692878641CC507100074FD68 /* SringsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SringsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		692878681CC507100074FD68 /* SringsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SringsTestUITests.m; sourceTree = "<group>"; };
+		6928786A1CC507100074FD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6928783D1CC5070F0074FD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692878561CC507100074FD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692878611CC507100074FD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692878371CC5070F0074FD68 = {
+			isa = PBXGroup;
+			children = (
+				692878421CC5070F0074FD68 /* SringsTest */,
+				6928785C1CC507100074FD68 /* SringsTestTests */,
+				692878671CC507100074FD68 /* SringsTestUITests */,
+				692878411CC5070F0074FD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		692878411CC5070F0074FD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				692878401CC5070F0074FD68 /* SringsTest.app */,
+				692878591CC507100074FD68 /* SringsTestTests.xctest */,
+				692878641CC507100074FD68 /* SringsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		692878421CC5070F0074FD68 /* SringsTest */ = {
+			isa = PBXGroup;
+			children = (
+				692878461CC5070F0074FD68 /* AppDelegate.h */,
+				692878471CC5070F0074FD68 /* AppDelegate.m */,
+				692878431CC5070F0074FD68 /* Supporting Files */,
+			);
+			path = SringsTest;
+			sourceTree = "<group>";
+		};
+		692878431CC5070F0074FD68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				692878491CC5070F0074FD68 /* ViewController.h */,
+				6928784A1CC5070F0074FD68 /* ViewController.m */,
+				6928784C1CC5070F0074FD68 /* Main.storyboard */,
+				6928784F1CC5070F0074FD68 /* Assets.xcassets */,
+				692878511CC5070F0074FD68 /* LaunchScreen.storyboard */,
+				692878541CC5070F0074FD68 /* Info.plist */,
+				692878441CC5070F0074FD68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6928785C1CC507100074FD68 /* SringsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6928785D1CC507100074FD68 /* SringsTestTests.m */,
+				6928785F1CC507100074FD68 /* Info.plist */,
+			);
+			path = SringsTestTests;
+			sourceTree = "<group>";
+		};
+		692878671CC507100074FD68 /* SringsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				692878681CC507100074FD68 /* SringsTestUITests.m */,
+				6928786A1CC507100074FD68 /* Info.plist */,
+			);
+			path = SringsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6928783F1CC5070F0074FD68 /* SringsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6928786D1CC507100074FD68 /* Build configuration list for PBXNativeTarget "SringsTest" */;
+			buildPhases = (
+				6928783C1CC5070F0074FD68 /* Sources */,
+				6928783D1CC5070F0074FD68 /* Frameworks */,
+				6928783E1CC5070F0074FD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SringsTest;
+			productName = SringsTest;
+			productReference = 692878401CC5070F0074FD68 /* SringsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692878581CC507100074FD68 /* SringsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692878701CC507100074FD68 /* Build configuration list for PBXNativeTarget "SringsTestTests" */;
+			buildPhases = (
+				692878551CC507100074FD68 /* Sources */,
+				692878561CC507100074FD68 /* Frameworks */,
+				692878571CC507100074FD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6928785B1CC507100074FD68 /* PBXTargetDependency */,
+			);
+			name = SringsTestTests;
+			productName = SringsTestTests;
+			productReference = 692878591CC507100074FD68 /* SringsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		692878631CC507100074FD68 /* SringsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692878731CC507100074FD68 /* Build configuration list for PBXNativeTarget "SringsTestUITests" */;
+			buildPhases = (
+				692878601CC507100074FD68 /* Sources */,
+				692878611CC507100074FD68 /* Frameworks */,
+				692878621CC507100074FD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				692878661CC507100074FD68 /* PBXTargetDependency */,
+			);
+			name = SringsTestUITests;
+			productName = SringsTestUITests;
+			productReference = 692878641CC507100074FD68 /* SringsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		692878381CC5070F0074FD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Viktar Lukashevich";
+				TargetAttributes = {
+					6928783F1CC5070F0074FD68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G29JQJSFWB;
+					};
+					692878581CC507100074FD68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G29JQJSFWB;
+						TestTargetID = 6928783F1CC5070F0074FD68;
+					};
+					692878631CC507100074FD68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G29JQJSFWB;
+						TestTargetID = 6928783F1CC5070F0074FD68;
+					};
+				};
+			};
+			buildConfigurationList = 6928783B1CC5070F0074FD68 /* Build configuration list for PBXProject "SringsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 692878371CC5070F0074FD68;
+			productRefGroup = 692878411CC5070F0074FD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6928783F1CC5070F0074FD68 /* SringsTest */,
+				692878581CC507100074FD68 /* SringsTestTests */,
+				692878631CC507100074FD68 /* SringsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6928783E1CC5070F0074FD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692878531CC5070F0074FD68 /* LaunchScreen.storyboard in Resources */,
+				692878501CC5070F0074FD68 /* Assets.xcassets in Resources */,
+				6928784E1CC5070F0074FD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692878571CC507100074FD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692878621CC507100074FD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6928783C1CC5070F0074FD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6928784B1CC5070F0074FD68 /* ViewController.m in Sources */,
+				692878481CC5070F0074FD68 /* AppDelegate.m in Sources */,
+				692878451CC5070F0074FD68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692878551CC507100074FD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6928785E1CC507100074FD68 /* SringsTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692878601CC507100074FD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692878691CC507100074FD68 /* SringsTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6928785B1CC507100074FD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6928783F1CC5070F0074FD68 /* SringsTest */;
+			targetProxy = 6928785A1CC507100074FD68 /* PBXContainerItemProxy */;
+		};
+		692878661CC507100074FD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6928783F1CC5070F0074FD68 /* SringsTest */;
+			targetProxy = 692878651CC507100074FD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6928784C1CC5070F0074FD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6928784D1CC5070F0074FD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		692878511CC5070F0074FD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				692878521CC5070F0074FD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6928786B1CC507100074FD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6928786C1CC507100074FD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6928786E1CC507100074FD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SringsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitilius.SringsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6928786F1CC507100074FD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SringsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitilius.SringsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		692878711CC507100074FD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SringsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitilius.SringsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SringsTest.app/SringsTest";
+			};
+			name = Debug;
+		};
+		692878721CC507100074FD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SringsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitilius.SringsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SringsTest.app/SringsTest";
+			};
+			name = Release;
+		};
+		692878741CC507100074FD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SringsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitilius.SringsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SringsTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		692878751CC507100074FD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SringsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitilius.SringsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SringsTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6928783B1CC5070F0074FD68 /* Build configuration list for PBXProject "SringsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6928786B1CC507100074FD68 /* Debug */,
+				6928786C1CC507100074FD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6928786D1CC507100074FD68 /* Build configuration list for PBXNativeTarget "SringsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6928786E1CC507100074FD68 /* Debug */,
+				6928786F1CC507100074FD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		692878701CC507100074FD68 /* Build configuration list for PBXNativeTarget "SringsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692878711CC507100074FD68 /* Debug */,
+				692878721CC507100074FD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		692878731CC507100074FD68 /* Build configuration list for PBXNativeTarget "SringsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692878741CC507100074FD68 /* Debug */,
+				692878751CC507100074FD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 692878381CC5070F0074FD68 /* Project object */;
+}
